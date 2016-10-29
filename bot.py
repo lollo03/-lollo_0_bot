@@ -34,6 +34,10 @@ def divcollaboratore_command(chat, message, args):
 @bot.command("botpy")
 def botpy_command(chat, message, args):
     chat.send("Sezione in costruzione, disponibile prossiamente")
+  
+ @bot.command("github")
+ def github_command(chat, message, args):
+     chat.send("Pagina github:\n https://github.com/lollo03")
  
 @bot.command("guidaphp")
 def guidaphp_command(chat, message, args):
